@@ -15,3 +15,11 @@ outputs:
 Access granted
 Access denied
 """
+a = "admin"
+b = "12345"
+c = ""
+d = ""
+while  c != a and d != b:
+    c = input("The username is:")
+    d = input("The password is:")
+  

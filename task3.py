@@ -19,3 +19,9 @@ Enter number:4
 That is an even integer
 
 """
+a = float(0.1)
+
+import math
+
+while a % 2 != 0:
+    a = float(input("The number is:"))

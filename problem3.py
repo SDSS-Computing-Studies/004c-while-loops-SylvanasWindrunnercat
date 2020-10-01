@@ -13,3 +13,11 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+a = 1
+b = 1
+
+import math
+
+while a < 145:
+    print(a)
+    a,b = b,a + b
